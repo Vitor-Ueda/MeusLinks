@@ -1,4 +1,4 @@
-document.body.setAttribute('class', 'dark-pink');
+document.body.setAttribute('class', 'undefined');
 
 let buttonDarkPink = document.querySelector('.btn-dark-pink');
 let buttonDarkBlue = document.querySelector('.btn-dark-blue');
