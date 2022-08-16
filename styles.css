@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------------------------------ESTILOS--------------------------------*/
+html {
+    --bg-color: white;
+    --text-color: black;
+    --primary-color: rgba(235, 27, 27, 0.822);
+    --primary-color-hover: rgba(179, 21, 21, 0.836);
+}
+
+body.dark-blue {
+    --bg-color:  #080520;
+    --text-color: white;
+    --primary-color: #341afa;
+    --primary-color-hover: #211294;
+}
+
+body.rose {
+    --bg-color: #80000080;
+    --text-color: white;
+    --primary-color: rgba(235, 27, 27, 0.822);
+    --primary-color-hover: rgba(179, 21, 21, 0.836);
+}
+
+body.dark-pink {
+    --bg-color:  #1F000B;
+    --text-color: white;
+    --primary-color: #af3560;
+    --primary-color-hover: #A61E4D;
+}
+/*#######################################################################*/
+
+.container {    
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+}
+
+.foto-perfil {
+    width: 100%;
+}
+
+img.foto-perfil {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    padding: 4px;
+    border:  var(--primary-color) solid 5px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+ul {
+    margin: 30px 0px 60px 0px;
+}
+
+ul li img {
+    width: 10%;
+}
+
+ul li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--primary-color);
+
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background 400ms;
+}
+
+ul li:hover {
+    background-color: var(--primary-color-hover);
+}
+
+/*--------------------------------Botões Temas--------------------------------*/
+.container-button {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto 60px auto;
+}
+
+.container-button button {
+    background-color: var(--primary-color);
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 10px 10px;
+    margin: 0px auto;
+    transition: background 400ms;
+    border: none;
+    border-radius: 5px;
+}
+
+.container-button button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+/*================================ FIM Botões Temas===========================*/
+footer {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
